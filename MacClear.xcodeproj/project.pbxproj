@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F582743F1E488D4E00C02EEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F582743E1E488D4E00C02EEB /* AppDelegate.m */; };
+		F58274421E488D4E00C02EEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58274411E488D4E00C02EEB /* main.m */; };
+		F58274441E488D4E00C02EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58274431E488D4E00C02EEB /* Assets.xcassets */; };
+		F58274471E488D4E00C02EEB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58274451E488D4E00C02EEB /* MainMenu.xib */; };
+		F58274521E488D4E00C02EEB /* MacClearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58274511E488D4E00C02EEB /* MacClearTests.m */; };
+		F582745D1E488D4E00C02EEB /* MacClearUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F582745C1E488D4E00C02EEB /* MacClearUITests.m */; };
+		F597E87F1E498ABC00672EE4 /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F597E87E1E498ABC00672EE4 /* FCFileManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F582744E1E488D4E00C02EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58274321E488D4E00C02EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58274391E488D4E00C02EEB;
+			remoteInfo = MacClear;
+		};
+		F58274591E488D4E00C02EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58274321E488D4E00C02EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58274391E488D4E00C02EEB;
+			remoteInfo = MacClear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F582743A1E488D4E00C02EEB /* MacClear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacClear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F582743D1E488D4E00C02EEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F582743E1E488D4E00C02EEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F58274411E488D4E00C02EEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F58274431E488D4E00C02EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58274461E488D4E00C02EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F58274481E488D4E00C02EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F582744D1E488D4E00C02EEB /* MacClearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacClearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58274511E488D4E00C02EEB /* MacClearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacClearTests.m; sourceTree = "<group>"; };
+		F58274531E488D4E00C02EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58274581E488D4E00C02EEB /* MacClearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacClearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F582745C1E488D4E00C02EEB /* MacClearUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacClearUITests.m; sourceTree = "<group>"; };
+		F582745E1E488D4E00C02EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F597E87D1E498ABC00672EE4 /* FCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileManager.h; sourceTree = "<group>"; };
+		F597E87E1E498ABC00672EE4 /* FCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58274371E488D4E00C02EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F582744A1E488D4E00C02EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58274551E488D4E00C02EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58274311E488D4E00C02EEB = {
+			isa = PBXGroup;
+			children = (
+				F582743C1E488D4E00C02EEB /* MacClear */,
+				F58274501E488D4E00C02EEB /* MacClearTests */,
+				F582745B1E488D4E00C02EEB /* MacClearUITests */,
+				F582743B1E488D4E00C02EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F582743B1E488D4E00C02EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F582743A1E488D4E00C02EEB /* MacClear.app */,
+				F582744D1E488D4E00C02EEB /* MacClearTests.xctest */,
+				F58274581E488D4E00C02EEB /* MacClearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F582743C1E488D4E00C02EEB /* MacClear */ = {
+			isa = PBXGroup;
+			children = (
+				F597E87C1E498ABC00672EE4 /* FCFileManager */,
+				F582743D1E488D4E00C02EEB /* AppDelegate.h */,
+				F582743E1E488D4E00C02EEB /* AppDelegate.m */,
+				F58274431E488D4E00C02EEB /* Assets.xcassets */,
+				F58274451E488D4E00C02EEB /* MainMenu.xib */,
+				F58274481E488D4E00C02EEB /* Info.plist */,
+				F58274401E488D4E00C02EEB /* Supporting Files */,
+			);
+			path = MacClear;
+			sourceTree = "<group>";
+		};
+		F58274401E488D4E00C02EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F58274411E488D4E00C02EEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F58274501E488D4E00C02EEB /* MacClearTests */ = {
+			isa = PBXGroup;
+			children = (
+				F58274511E488D4E00C02EEB /* MacClearTests.m */,
+				F58274531E488D4E00C02EEB /* Info.plist */,
+			);
+			path = MacClearTests;
+			sourceTree = "<group>";
+		};
+		F582745B1E488D4E00C02EEB /* MacClearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F582745C1E488D4E00C02EEB /* MacClearUITests.m */,
+				F582745E1E488D4E00C02EEB /* Info.plist */,
+			);
+			path = MacClearUITests;
+			sourceTree = "<group>";
+		};
+		F597E87C1E498ABC00672EE4 /* FCFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				F597E87D1E498ABC00672EE4 /* FCFileManager.h */,
+				F597E87E1E498ABC00672EE4 /* FCFileManager.m */,
+			);
+			path = FCFileManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58274391E488D4E00C02EEB /* MacClear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58274611E488D4E00C02EEB /* Build configuration list for PBXNativeTarget "MacClear" */;
+			buildPhases = (
+				F58274361E488D4E00C02EEB /* Sources */,
+				F58274371E488D4E00C02EEB /* Frameworks */,
+				F58274381E488D4E00C02EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacClear;
+			productName = MacClear;
+			productReference = F582743A1E488D4E00C02EEB /* MacClear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F582744C1E488D4E00C02EEB /* MacClearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58274641E488D4E00C02EEB /* Build configuration list for PBXNativeTarget "MacClearTests" */;
+			buildPhases = (
+				F58274491E488D4E00C02EEB /* Sources */,
+				F582744A1E488D4E00C02EEB /* Frameworks */,
+				F582744B1E488D4E00C02EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F582744F1E488D4E00C02EEB /* PBXTargetDependency */,
+			);
+			name = MacClearTests;
+			productName = MacClearTests;
+			productReference = F582744D1E488D4E00C02EEB /* MacClearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F58274571E488D4E00C02EEB /* MacClearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58274671E488D4E00C02EEB /* Build configuration list for PBXNativeTarget "MacClearUITests" */;
+			buildPhases = (
+				F58274541E488D4E00C02EEB /* Sources */,
+				F58274551E488D4E00C02EEB /* Frameworks */,
+				F58274561E488D4E00C02EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F582745A1E488D4E00C02EEB /* PBXTargetDependency */,
+			);
+			name = MacClearUITests;
+			productName = MacClearUITests;
+			productReference = F58274581E488D4E00C02EEB /* MacClearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58274321E488D4E00C02EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chuansongmen;
+				TargetAttributes = {
+					F58274391E488D4E00C02EEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V6JKEEZATW;
+						ProvisioningStyle = Automatic;
+					};
+					F582744C1E488D4E00C02EEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V6JKEEZATW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F58274391E488D4E00C02EEB;
+					};
+					F58274571E488D4E00C02EEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V6JKEEZATW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F58274391E488D4E00C02EEB;
+					};
+				};
+			};
+			buildConfigurationList = F58274351E488D4E00C02EEB /* Build configuration list for PBXProject "MacClear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58274311E488D4E00C02EEB;
+			productRefGroup = F582743B1E488D4E00C02EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58274391E488D4E00C02EEB /* MacClear */,
+				F582744C1E488D4E00C02EEB /* MacClearTests */,
+				F58274571E488D4E00C02EEB /* MacClearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58274381E488D4E00C02EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58274441E488D4E00C02EEB /* Assets.xcassets in Resources */,
+				F58274471E488D4E00C02EEB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F582744B1E488D4E00C02EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58274561E488D4E00C02EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58274361E488D4E00C02EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58274421E488D4E00C02EEB /* main.m in Sources */,
+				F597E87F1E498ABC00672EE4 /* FCFileManager.m in Sources */,
+				F582743F1E488D4E00C02EEB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58274491E488D4E00C02EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58274521E488D4E00C02EEB /* MacClearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58274541E488D4E00C02EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F582745D1E488D4E00C02EEB /* MacClearUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F582744F1E488D4E00C02EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58274391E488D4E00C02EEB /* MacClear */;
+			targetProxy = F582744E1E488D4E00C02EEB /* PBXContainerItemProxy */;
+		};
+		F582745A1E488D4E00C02EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58274391E488D4E00C02EEB /* MacClear */;
+			targetProxy = F58274591E488D4E00C02EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F58274451E488D4E00C02EEB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58274461E488D4E00C02EEB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F582745F1E488D4E00C02EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F58274601E488D4E00C02EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F58274621E488D4E00C02EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6JKEEZATW;
+				INFOPLIST_FILE = MacClear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuansongmen.MacClear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F58274631E488D4E00C02EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6JKEEZATW;
+				INFOPLIST_FILE = MacClear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuansongmen.MacClear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F58274651E488D4E00C02EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6JKEEZATW;
+				INFOPLIST_FILE = MacClearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuansongmen.MacClearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacClear.app/Contents/MacOS/MacClear";
+			};
+			name = Debug;
+		};
+		F58274661E488D4E00C02EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6JKEEZATW;
+				INFOPLIST_FILE = MacClearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuansongmen.MacClearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacClear.app/Contents/MacOS/MacClear";
+			};
+			name = Release;
+		};
+		F58274681E488D4E00C02EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6JKEEZATW;
+				INFOPLIST_FILE = MacClearUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuansongmen.MacClearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MacClear;
+			};
+			name = Debug;
+		};
+		F58274691E488D4E00C02EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6JKEEZATW;
+				INFOPLIST_FILE = MacClearUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuansongmen.MacClearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MacClear;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58274351E488D4E00C02EEB /* Build configuration list for PBXProject "MacClear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F582745F1E488D4E00C02EEB /* Debug */,
+				F58274601E488D4E00C02EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58274611E488D4E00C02EEB /* Build configuration list for PBXNativeTarget "MacClear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58274621E488D4E00C02EEB /* Debug */,
+				F58274631E488D4E00C02EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58274641E488D4E00C02EEB /* Build configuration list for PBXNativeTarget "MacClearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58274651E488D4E00C02EEB /* Debug */,
+				F58274661E488D4E00C02EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58274671E488D4E00C02EEB /* Build configuration list for PBXNativeTarget "MacClearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58274681E488D4E00C02EEB /* Debug */,
+				F58274691E488D4E00C02EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58274321E488D4E00C02EEB /* Project object */;
+}
